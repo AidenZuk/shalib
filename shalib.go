@@ -10,6 +10,9 @@ import (
 )
 //go:noescape
 func blockSha(h *[8]uint32, message []uint8)
+func BlockSha(h *[8]uint32, message []uint8) {
+	blockSha(h , message )
+}
 // BlockSize - The blocksize of SHA256 in bytes.
 const BlockSize = 64
 //export Sha256hash

@@ -1,6 +1,6 @@
 //+build !noasm,!appengine
 
-package main
+package shalib
 
 import (
 	"crypto/sha256"

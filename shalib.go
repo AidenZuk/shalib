@@ -1,6 +1,6 @@
 //+build !noasm,!appengine
 
-package main
+package shalib
 
 
 
@@ -63,6 +63,3 @@ func Sha256hash(m []byte) (r [32]byte) {
 	return
 }
 
-func main(){
-
-}
